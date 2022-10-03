@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: url("bg.jpg")no-repeat;
+    background-size: cover;
+  }
+  .container{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 70px 70px;
+    border-radius: 20px;
+  }
+  .container .heading{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+    margin-right: 66%;
+    font-family: 'Cuprum', sans-serif;
+  }
+  .textbox{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding:8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+  }
+  .textbox i{
+    width:30px;
+    float: left;
+    text-align: center;
+  }
+  .eyecon{
+    position: absolute;
+    right: 70px;
+    
+  }
+
+  .textbox input{
+    border: none;
+    outline : none;
+    background: none;
+    padding-left: 3px;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+    float:left;
+    margin: 5px 10px;
+  }
+  .chck{
+    margin: 18px 10px 30px 0;
+  }
+  
+  .btn{
+    width: 100%;
+    background: none;
+    border:2px solid black;
+    color: black;
+    padding: 9px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+  .anchor2{
+    text-align: right;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: 0.3s;
+  }
+  p{
+    text-align: center;
+    margin-top: 20px;
+  }
